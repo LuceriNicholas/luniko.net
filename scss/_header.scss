@@ -8,16 +8,46 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid $colore3;
+    box-shadow: 0px 0px 20px 0px;
+
+    .logo {
+        margin-left: 35px;
+    }
+
+    a {
+        color: $colore2;
+        text-decoration: none;
+        transition: all 0.5s;
+    }
+    a:hover {
+        color: $colore3;
+        font-size: 15.5px;
+    }
 
     ul {
         list-style: none;
-        display: flex;
-        flex-direction: row;
+        display: inline-flex;
         margin-right: 30px;
+        align-items: center;
 
         li {
-            margin: 15px;
+            margin: 18px;
         }
+
+        .lingua {
+            display: none;
+        }
+        #lingua:hover .lingua {
+            display: inline-flex;
+            font-size: 15.5px;
+        }
+        #lingua {
+            display: inline-flex;
+            flex-direction: row-reverse;
+            align-items: center;
+        }
+
     }
 
     .logo, .menu {
