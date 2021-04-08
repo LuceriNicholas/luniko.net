@@ -1,0 +1,26 @@
+//main: main.scss
+
+header {
+    background-color: $colore1;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin-right: 30px;
+
+        li {
+            margin: 15px;
+        }
+    }
+
+    .logo, .menu {
+        color: $colore2;
+    }
+}
