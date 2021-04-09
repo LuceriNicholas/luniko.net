@@ -4,6 +4,11 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: roboto, sans-serif, arial;
+  font-size: 13px;
+}
+
+body {
+  background-color: #d3edff;
 }
 
 header {
@@ -30,6 +35,10 @@ header {
 
 header .logo {
   margin-left: 35px;
+}
+
+header .logo h1 {
+  font-size: 25px;
 }
 
 header a {
@@ -85,5 +94,43 @@ header ul #lingua {
 
 header .logo, header .menu {
   color: white;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  border-top: 1px solid #91e8fd;
+  -webkit-box-shadow: 10px 10px 10px 10px;
+          box-shadow: 10px 10px 10px 10px;
+  position: fixed;
+  bottom: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .recapiti {
+  font-size: 12px;
+  color: grey;
+  padding-left: 30px;
+}
+
+footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 30px;
+}
+
+footer .social img {
+  width: 20px;
+  margin-right: 10px;
 }
 /*# sourceMappingURL=main.css.map */
