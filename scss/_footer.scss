@@ -24,6 +24,10 @@ footer {
         img {
             width: 20px;
             margin-right: 10px;
+            transition: all 0.25s;
+            &:hover {
+                width: 25px;
+            }
         }
     }
 }
