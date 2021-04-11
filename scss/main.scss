@@ -9,9 +9,11 @@
 @import "variabili";
 
 body {
-    background-color: $colore4;
+    background-color: $colore1;
 }
 
 @import "header";
 @import "page";
 @import "footer";
+
+@import "mobile";

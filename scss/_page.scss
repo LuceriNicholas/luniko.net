@@ -1,6 +1,7 @@
 //main: main.scss
 
 .page {
+    background-color: $colore4;
     margin: auto;
     padding: 20px;
     display: flex;
@@ -17,7 +18,7 @@
 
     .items {
         margin: -40px 0 0 25px;
-        width: 600px;
+        width: 40%;
     }
     
     h1 {
@@ -41,6 +42,7 @@
         width: 90%;
         font-size: 16px;
         margin: auto;
+        margin-top: 10px;
         text-align: justify;
     }
 

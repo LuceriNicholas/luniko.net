@@ -1,0 +1,90 @@
+//main: main.scss
+
+@media only screen and (max-width: 800px) {
+
+    header {
+        .menu {
+            display: none;
+        }
+    }
+
+    .page {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: flex-end;
+        margin: auto;
+        height: 100%;
+        width: 100%;
+
+        .items {
+            margin: auto;
+            width: 90%;
+            padding-bottom: 70px;
+
+            h1 {
+                font-size: 30px;
+            }
+        }
+        .deco {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        picture {
+            margin-top: 57px;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        img {
+            margin: auto;
+            width: 100%;
+        }
+
+        .social2 {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 7px;
+            margin-top: auto;
+            
+            img {
+                width: 30px;
+                margin: 5px;
+            }
+        }
+    }
+
+    footer {
+        position: static;
+        display: flex;
+        justify-content: center;
+        margin-top: auto;
+
+        address {
+            display: none;
+        }
+        .address2 {
+            display: block;
+            text-align: center;
+            color: $colore5;
+            font-size: 11px;
+            margin: initial;
+            a {
+                color: $colore5;
+            }
+        }
+
+        .social {
+            display: none;
+        }
+        
+    }
+}
+
+
+@media only screen and (min-width: 400px) and (max-width: 800px) {
+
+    footer {
+        position: absolute;
+    }
+}

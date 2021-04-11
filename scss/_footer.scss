@@ -22,6 +22,9 @@ footer {
             color: $colore5;
         }
     }
+    .address2 {
+        display: none;
+    }
 
     .social {
         display: flex;
@@ -35,4 +38,8 @@ footer {
             }
         }
     }
+}
+
+.social2 {
+    display: none;
 }
