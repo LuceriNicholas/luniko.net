@@ -28,12 +28,13 @@
                 background-color: $colore6;
                 position: fixed;
                 top: 45px;
-                right: -500px;
+                right: -1000px;
                 border-radius: 5px;
                 width: 100%;
                 font-size: 20px;
                 transition: all linear 0.5s;
                 z-index: 0;
+                box-shadow: black 0px 0px 20px 0px;
                
                 li {
                     padding: 0px 20px 30px 20px;
