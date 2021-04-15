@@ -11,7 +11,7 @@
 
         <header>
             <div class="logo">
-                <h1>Luniko</h1>
+                <h1><a href="index.html">Luniko</a></h1>
             </div>
             <nav class="menu"><img src="../icone/icone celesti/menu.svg">
                 <ul>
@@ -39,13 +39,55 @@
                 <img src="../icone/icone_nere/linkedin.svg">
             </div>
 
-            <div class="items">
-                
-            </div>
+            <div class="items formulario">
+                <h3>Per manggiori informazioni e preventivi</h3>
+                <p>
+                    Non esitate a scrivere una mail a <a href="mailto:luceriniko@icloud.com">lucerniko@icloud.com</a>
+                    oppure tramite whatsapp al numero +49 0172-6844741.
+                </p>
+                <p>
+                    O semplicemente scrivete qui sotto e verrete ricontattati al più presto!
+                </p>
+                <div class="deco"></div>
+                <form action="#.php" method="post">
 
-            <picture>
-                
-            </picture>
+                    <div>
+                        <label for="nome" id="nome">Nome</label>
+                        <input name="nome" type="text" placeholder="Nome" required>
+                    </div>
+
+                    <div>
+                        <label for="cognome" id="cognome">Cognome</label>
+                        <input name="cognome" type="text" placeholder="Cognome" required>
+                    </div>
+
+                    <div>
+                        <label for="email" id="email">E-Mail</label>
+                        <input name="email" type="email" placeholder="example@email.com" required>
+                    </div>
+
+                    <div>
+                        <label for="tel" id="tel">Telefono<sup>*</sup></label>
+                        <input for="tel" type="number" placeholder="000 000 0000">
+                    </div>
+
+                    <div class="oggetto">
+                        <label for="oggetto" id="oggetto">Oggetto<sup>*</sup></label>
+                        <input name="ogetto" type="text" placeholder="Oggetto">
+                    </div>
+
+                    <fieldset>
+
+                        <legend>Contenuto</legend>
+                        <textarea name="contenuto" rows="15"></textarea>
+
+                    </fieldset>
+
+                    <input type="submit" id="pulsante" value="Invia">
+
+                </form>
+                <h5><sup>*</sup><em>I campi con asterisco non sono obbligatori.</em></h5>
+            </div>
 
         </div>
 
