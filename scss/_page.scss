@@ -17,12 +17,12 @@
     }
 
     .items {
-        margin: -40px 0 0 25px;
+        margin: 10px 0 0 25px;
         width: 40%;
     }
     
     h1 {
-        font-size: 40px;
+        font-size: 30px;
         text-align: center;
     }
     h3 {
@@ -33,14 +33,15 @@
     .deco {
         border-top: 2px solid black;
         border-bottom: 1px solid black;
-        width: 100%;
+        width: 90%;
         height: 4px;
-        margin: 18px 0 15px 0;
+        margin: 18px 0 15px 28px;
     }
 
     p, address {
         width: 90%;
         font-size: 16px;
+        font-style: initial;
         margin: auto;
         margin-top: 10px;
         text-align: justify;
@@ -48,7 +49,7 @@
 
     .formulario {
         width: 500px;
-        margin-top: 20px;
+        margin: 20px 0 0 20px;
 
         .deco {
             width: 100%;
@@ -56,49 +57,62 @@
         }
 
         form { 
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: flex-start;
             
+
             fieldset {
-                width: 100%;
-                padding: 3px;
-                margin: 10px 0 10px 0;
-                border: none;
-                }
-                textarea {
-                    width: 99.5%;
-                    resize: none;
-                }
-            }
-            div {
                 display: flex;
-                justify-content: space-between;
-                align-items: center;
-                margin: 5px 2px 0 2px;
-                width: 49%;
-
-                label, input {
-                    margin: 5px;
-                }
-            }
-            .oggetto {
+                flex-wrap: wrap;
+                justify-content: flex-start;
                 width: 100%;
+                border-radius: 7px;
+                border: 1px solid rgba(128, 128, 128, 0.616);
 
+                fieldset {
+                    width: 100%;
+                    padding: 3px;
+                    margin: 10px 0 0px 0;
+                    border: none;
+                    }
+                    textarea {
+                        width: 99.5%;
+                        resize: none;
+                    }
+                }
+            
+
+                div {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 5px 2px 0 2px;
+                    width: 49%;
+
+                    label, input {
+                        margin: 5px;
+                    }
+                }
+                .oggetto {
+                    width: 100%;
+
+                    input {
+                        width: 81%;
+                    }
+                }
                 input {
-                    width: 81%;
+                    margin: auto;
+                    margin-bottom: 10px;
+                    padding-inline: 3px;
+                    width: 150px;
+                    height: 30px;
+                }
+
+                h5 {
+                    margin: 5px 0 30px 5px;
+                    font-weight: lighter;
+                    width: 100%;
                 }
             }
-            input {
-                margin: auto;
-                padding-inline: 3px;
-                width: 150px;
-                height: 30px;
-            }
         }
 
-        h5 {
-            margin-top: 20px;
-            font-weight: lighter;
-        }
+        
     
