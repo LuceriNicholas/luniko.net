@@ -37,9 +37,10 @@
         }
 
         picture {
-            margin-top: 57px;
+            padding-top: 70px;
             width: 100%;
             max-width: 300px;
+            margin: auto;
         }
 
         img {
@@ -63,6 +64,24 @@
             margin: auto;
         }
 
+    }
+
+    .about {
+        flex-direction: column;
+
+        .items {
+            margin-top: 10px;
+            padding-bottom: 0;
+            p:first-of-type {
+                margin-top: 25px;
+            }
+        }
+        .social2 {
+            order: 1;
+        }
+        .formulario {
+            margin-bottom: 20px;
+        }
     }
 
     footer {

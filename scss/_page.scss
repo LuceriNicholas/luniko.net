@@ -66,6 +66,15 @@
                 width: 100%;
                 border-radius: 7px;
                 border: 1px solid rgba(128, 128, 128, 0.616);
+                
+                input::-webkit-outer-spin-button,
+                input::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                }
+                input[type=number] {
+                    -moz-appearance:textfield;
+                }
 
                 fieldset {
                     width: 100%;
@@ -110,6 +119,28 @@
                     margin: 5px 0 30px 5px;
                     font-weight: lighter;
                     width: 100%;
+                }
+            }
+        }
+
+        .about {
+            justify-content: center;
+            margin: initial;
+            flex-wrap: wrap;
+
+            .formulario {
+                margin-top: -25px;
+            }
+
+            .formulario, .items {
+                padding-bottom: 100px;
+            }
+    
+            picture {
+                width: fit-content;
+                margin: 70px 0 30px 40px;
+                img {
+                    margin: auto;
                 }
             }
         }
